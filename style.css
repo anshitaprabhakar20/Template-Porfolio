@@ -11,19 +11,13 @@
 }
 
 @font-face{
-    src: url("./fonts/Gilroy-Medium.otf");
+    src: url("./fonts/Gilroy-Light.otf");
     font-family: "Gilroy";
     font-weight: 400;
 }
 
 @font-face{
-    src: url("./fonts/Gilroy-Regular.otf");
-    font-family: "Gilroy";
-    font-weight: 500;
-}
-
-@font-face{
-    src: url("./fonts/Gilroy-Semibold.otf");
+    src: url("./fonts/Gilroy-ExtraBold.otf");
     font-family: "Gilroy";
     font-weight: 600;
 }
@@ -105,7 +99,7 @@ html, body {
 }
 
 #nright a{
-    font-size: 25px;
+    font-size: 13px;
     text-decoration: none;
     color: #000;
     font-weight: 600;   
@@ -127,7 +121,6 @@ html, body {
     height: 35px;
     background-color: black;
     color: #fff;
-    font-size: 25px;
 }
 
 #home img{
@@ -137,7 +130,7 @@ html, body {
 
 #nav h4{
     font-family: "Delirium NCV";
-    font-size: 60px;
+    font-size: 30px;
     font-weight: 100;
 }
 
@@ -154,7 +147,7 @@ html, body {
     color: #000;
     margin-bottom: 5px;
     font-weight: 100;
-    font-size: 25px;
+    font-size: 12px;
     letter-spacing: 3px;
 }
 
@@ -174,8 +167,12 @@ html, body {
     padding: 0 50px;
     z-index: 99999999;
 }
+
+#bleft{
+}
+
 #bleft h4{
-    font-size: 90px;
+    font-size: 70px;
     font-weight: 100;
     letter-spacing: 10px;
     font-family: "Delirium NCV";
@@ -201,13 +198,12 @@ html, body {
     text-decoration: none;
     color: #000;
     letter-spacing: 3px;
-    font-size: 25px;
 }
 
 #bright a i{
     margin-left: 20px;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background-color: rgb(153, 198, 189);
     display: -webkit-box;
     display: -ms-flexbox;
@@ -220,12 +216,13 @@ html, body {
             justify-content: center;
     border-radius: 50%;
     color: #fff;
-    font-size: 20px;
+    font-size: 12px;
 }
 
 #second{
     width: 100%;
     min-height: 100vh;
+    background-color: #f3f3f3;
 }
 
 #stext{
